@@ -1,0 +1,72 @@
+.card{
+    border-radius: 15px;
+    margin: 0 15px 0 15px;
+}
+.card p{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.card-img-top{
+    padding-top: 10px;
+}
+
+.form-check-input{
+    font-size: 24px;
+}
+.btn{
+    background: #E94B8B;
+    border: #E94B8B;
+    width: 200px;
+}
+.logo{
+    font-family: "Dancing Script", cursive;
+    font-size: 40px;
+    color: #E94B8B;
+}
+.head{
+    text-align: center;
+    margin-top: 60px;
+    
+}
+.card-center {
+    justify-content: center;
+}
+.icon{
+    color: rgb(217, 212, 212);
+}
+.highlight-box {
+    border: 2px solid #E94B8B; /* Example highlight style */
+}
+.visible p{
+    margin-top: 60px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.return{
+    margin-top: 20px;
+    color: gray;
+}
+
+@media only screen and (max-width: 600px) {
+    .head{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .card-center{
+        flex-wrap: wrap;
+    }
+
+    .card{
+        margin-bottom: 1rem;
+    }
+    .visible p{
+        font-size: 15px;
+    }
+
+    .btn{
+        
+        font-size: 20px;
+    }
+}

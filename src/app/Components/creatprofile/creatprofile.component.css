@@ -1,0 +1,83 @@
+.btn{
+    background: #E94B8B;
+    border: #E94B8B;
+    width: 250px;
+}
+.field{
+    border: none;
+    border-bottom: 1px solid rgb(143, 137, 137);
+    width: 600px;
+    font-size: 20px;
+    outline: none;
+}
+.field:hover{
+    border: none;
+    border-bottom: 1px solid rgb(143, 137, 137);
+}
+.img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 2px dotted #E94B8B;
+}
+
+svg{
+    margin-top: 50%;
+    margin-left: 45%;
+}
+.logo{
+    font-family: "Dancing Script", cursive;
+    font-size: 40px;
+    color: #E94B8B;
+}
+.avatar{
+    font-size: 20px;
+}
+.file{
+    margin-top: 60px;
+}
+
+@media only screen and (max-width: 600px){
+
+    .head h1{
+        text-align: center;
+    }
+    .head-p{
+        text-align: center;
+    }
+    .avatar{
+        margin-left: 25px;
+    }
+    .display{
+        margin-left: 90px;
+    }
+    .img{
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        border: 2px dotted #E94B8B;
+    }
+    svg{
+        margin-top: 45%;
+        margin-left: 45%;
+    }
+    .file{
+        margin-top: 36px;
+    }
+    .location p{
+        margin: 0 0 0 25px;
+    }
+    .location input{
+        margin: 0 0 0 25px;
+        width: 80%;
+    }
+    .btn{
+        background: #E94B8B;
+        border: #E94B8B;
+        width: 250px;
+        margin: 0 0 0 155px;
+    }
+    .display{
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,123 @@
+/* svg{
+    width: 50px;
+    height: 50px;
+} */
+.center{
+    margin-top: 40px;
+    text-align: center;
+}
+.center h2{
+    font-size: 40px;
+}
+.center a{
+    text-decoration: none;
+    color: #E94B8B;
+}
+.center p{
+    margin-top: 16px;
+}
+.email{
+    height: 70px;
+    width: 90px;
+}
+.btn{
+    background: #E94B8B;
+    border: #E94B8B;
+}
+.logo{
+    font-family: "Dancing Script", cursive;
+    color: #000000;
+}
+.row{
+    background: rgb(240, 236, 236);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* padding-right: 0; */
+    margin: 0;
+    padding: 0;
+}
+.logo-color{
+    color: #E94B8B;
+}
+.info{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.list{
+    margin-top: 40px;
+}
+.list p{
+    font-weight: bold;
+    text-align: start;
+    margin-left: 32px;
+}
+.list ul{
+    list-style-type: none;
+    text-align: start;
+}
+.list ul li{
+    margin-top: 10px;
+}
+.treademarks{
+    justify-content: space-between;
+}
+hr{
+    margin-left: 50px;
+    width: 1650px;
+}
+.icon{
+    margin-left: 10px;
+}
+.logo-f{
+    font-size: 38px;
+}
+
+@media (max-width: 600px){
+    .center{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .center h2{
+        font-size: 20px;
+    }
+    .center p{
+        margin-top: 16px;
+        font-size: 10px;
+    }
+    .email{
+        height: 30px;
+    }
+    .row{
+        position: relative;
+        bottom: 0;
+    }
+    .list p{
+        font-weight: bold;
+        text-align: start;
+        margin-left: 32px;
+    }
+    .flex{
+        flex-wrap: wrap;
+        margin-left: 20px;
+    }
+    .list{
+        margin-left: 15px;
+    }
+    hr{
+        width: 500px;
+    }
+    .treademarks p{
+        font-size: 10px;
+    }
+    .list li{
+        font-size: 12px;
+    }
+    .logo-f{
+        font-size: 28px;
+    }
+    .info p{
+        font-size: 12px;
+    }
+}
+    

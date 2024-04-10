@@ -1,0 +1,45 @@
+
+.leftContents{
+    background-color: #f4d48c;
+    height: 100vh;
+}
+.btn{
+    background: #E94B8B;
+    border: #E94B8B;
+}
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    font-family: "Dancing Script", cursive;
+    font-size: 40px;
+    color: #73591b;
+}
+
+@media (max-width: 600px){
+    .container-fluid {
+      flex-direction: column;
+    }
+    .leftContents{
+        background-color: #f4d48c;
+    }
+    .main-img{
+        width: 580px;
+        margin-top: 80px;
+    }
+
+  }
+
+  @media only screen and (max-width:430){
+      .main-img{
+          width: 350px;
+          margin-top: 80px;
+          margin-left: 25px
+      }
+      .leftContents{
+        height: auto;
+      }
+  }
